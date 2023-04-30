@@ -10,5 +10,5 @@ import (
 )
 
 func getPortBinding(ip string, port string) docker.PortBinding {
-	return docker.PortBinding{HostIP: ip, HostPort: port}
+	return docker.PortBinding{HostPort: port}
 }
